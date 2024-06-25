@@ -3,7 +3,7 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 
 export const App: React.FC = () => {
-  const test = 'abc';
+  const tesst = 'abc';
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
