@@ -1,9 +1,9 @@
-import * as React from 'react';
 import { ChakraProvider, Box, Text, Link, VStack, Code, Grid, theme } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 
 export const App = () => (
+  const app ="new";
   <ChakraProvider theme={theme}>
     <Box textAlign="center" fontSize="xl">
       <Grid minH="100vh" p={3}>
@@ -12,7 +12,8 @@ export const App = () => (
           <Logo h="40vmin" pointerEvents="none" />
           <Text>
             Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload. checking the line length
-            ok rule
+            chek of the rull ok rule check if anything is missing in the rules or during commit or
+            errors dasd
           </Text>
           <Link
             color="teal.500"
