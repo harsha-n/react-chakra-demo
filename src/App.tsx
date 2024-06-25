@@ -1,16 +1,7 @@
-import * as React from "react"
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from "@chakra-ui/react"
-import { ColorModeSwitcher } from "./ColorModeSwitcher"
-import { Logo } from "./Logo"
+import * as React from 'react';
+import { ChakraProvider, Box, Text, Link, VStack, Code, Grid, theme } from '@chakra-ui/react';
+import { ColorModeSwitcher } from './ColorModeSwitcher';
+import { Logo } from './Logo';
 
 export const App = () => (
   <ChakraProvider theme={theme}>
@@ -20,7 +11,8 @@ export const App = () => (
         <VStack spacing={8}>
           <Logo h="40vmin" pointerEvents="none" />
           <Text>
-            Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
+            Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload. checking the line length
+            ok rule
           </Text>
           <Link
             color="teal.500"
@@ -35,4 +27,4 @@ export const App = () => (
       </Grid>
     </Box>
   </ChakraProvider>
-)
+);
