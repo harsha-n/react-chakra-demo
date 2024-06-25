@@ -3,7 +3,6 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 
 export const App: React.FC = () => {
-  const tesst = 'abc';
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
@@ -14,7 +13,7 @@ export const App: React.FC = () => {
             <Text>
               Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload. checking the line
               length chek of the rull ok rule check if anything is missing in the rules or during
-              commit or errors dasd
+              commit or errors dasd test
             </Text>
             <Link
               color="teal.500"
