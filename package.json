@@ -35,6 +35,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
+      "npm run lint",
       "eslint --fix",
       "prettier --write",
       "tsc --noEmit"
